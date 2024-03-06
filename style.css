@@ -35,6 +35,11 @@
         align-items: center;
         font-weight: bolder;
         font-size: 1.3rem;
+        
+    }
+
+    #im{
+        transform: rotate(90deg);
     }
 
     .container{
@@ -78,7 +83,10 @@
     .songItemContainer{
         margin-top: 74px;
     }
-
+     
+    .songName{
+        padding-left: 30px;
+    }
     .songItem{
         height: 50px;
         display: flex;
